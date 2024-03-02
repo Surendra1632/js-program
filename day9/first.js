@@ -1,16 +1,7 @@
-function countVowels(str) {
-    let count = 0;
-    for (const char of str) {
-        if
-            (char === "a" || char === "e" || char === "i" || char=="o" || char === "u")
-        {
-            count++;
-        }
+function countVowels(str){
+    for(const char of str){
+        console.log(char);
     }
-    console.log(count);
 }
-countVowels("abc");
-countVowels("aaa");
-countVowels("apnacollege")
-
-
+countVowels("surendra");
+ 
